@@ -22,13 +22,6 @@ body {
     background-size: cover;
 }
 
-.todo-outer-app {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-}
 .todo-app {
   display: flex;
   flex-direction: column;
@@ -41,7 +34,6 @@ body {
   border-radius: 10px;
   padding-bottom: 32px;
 }
-
 
 h1 {
   margin: 32px 0;
@@ -120,7 +112,7 @@ h1 {
 
   padding: 16px;
   border-radius: 5px;
-  width: 100%;
+  width: 90%;
 }
 
 .todo-row:nth-child(4n + 1) {
@@ -163,35 +155,8 @@ h1 {
   color: #fff;
 }
 
-@media screen and (max-width: 300px) {
-  .todo-outer-app {
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 100%;
-    min-height: 600px;
-
-    img {
-      width: 150px;
-    }
-
-    h1 {
-      font-size: 1em;
-    }
-
-    .todo-form {
-      width: 200px;
-    }
-  }
-}
 
 @media only screen and (max-width: 700px) {
   .todo-app {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 450px;
-    min-height: 600px;
   }
 }
